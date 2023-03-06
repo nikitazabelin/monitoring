@@ -32,6 +32,6 @@ curl -H "Content-type: application/json" \
 rm $NAMED_PIPE
 ~   
 
-#Script will push logs to datadog API and parse it on the same level as datadog agent
-#to initate the script we should use cron-job
+# Script will push logs to datadog API and parse it on the same level as datadog agent
+# to initate the script we should use cron-job
 # Can be rebuild for other APIs as well
