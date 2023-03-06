@@ -31,3 +31,7 @@ sudo setfacl -Rm u:dd-agent:rx /var/log/httpd
 
 # Restart Datadog Agent
 sudo restart datadog-agent
+
+
+# Please pay attention that error log is disable to save money
+# Procces relevant for Amazon Linux 2
