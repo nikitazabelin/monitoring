@@ -1,6 +1,6 @@
 {
     "title":"Instance Dashboard",
-    "description":"## Title\n\nDescribe this dashboard. Add links to other dashboards, monitors, wikis,  and docs to help your teammates. Markdown is supported.\n\n- [This might link to a dashboard](#)\n- [This might link to a wiki](#) (cloned) (cloned) (cloned) (cloned)",
+    "description":"## Description",
     "widgets":[
        {
           "id":6104469617510232,
