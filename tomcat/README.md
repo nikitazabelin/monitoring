@@ -11,9 +11,9 @@ Make sure that Datadog is using an available port. The default port for Datadog 
 1. Save this script as a file with a `.sh` extension, for example, `tomcat-installation.sh`.
 2. Make it executable using the following command:
 
-'''
+```
 chmod +x tomcat-installation.sh
-'''
+```
 
 3. Run the script to install Tomcat monitoring for Datadog.
 
