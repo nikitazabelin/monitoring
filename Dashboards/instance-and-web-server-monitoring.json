@@ -19,14 +19,14 @@
                       "type":"hostmap",
                       "requests":{
                          "fill":{
-                            "q":"avg:aws.ec2.host_ok{aws_account:985399297052,aws_account:name} by {host}"
+                            "q":"avg:aws.ec2.host_ok{aws_account:account_number,aws_account:name} by {host}"
                          }
                       },
                       "node_type":"host",
                       "no_metric_hosts":true,
                       "no_group_hosts":true,
                       "scope":[
-                         "aws_account:985399297052",
+                         "aws_account:account_number",
                          "aws_account:name"
                       ],
                       "style":{
@@ -446,7 +446,7 @@
              "display_format":"countsAndList",
              "color_preference":"background",
              "hide_zero_counts":true,
-             "query":"group:aws_account:985399297052",
+             "query":"group:aws_account:account_number",
              "sort":"status,asc",
              "count":50,
              "start":0,
